@@ -1,0 +1,193 @@
+body{
+ /* background-image: url('../images/school.png');
+  background-size: cover;*/
+  background-color: #3F71BD;
+    background: #3F71BD;
+     background: -webkit-linear-gradient(left, #092154, #1647AC, #092154);
+    background: -o-linear-gradient(right, #092154, #1647AC, #092154);
+    background: -moz-linear-gradient(right, #092154, #1647AC, #092154);
+    background: linear-gradient(to right, #092154, #1647AC, #092154); 
+font-family: 'Raleway', sans-serif;
+}
+.headerText{color: white;}
+li{
+  line-height: 70px;
+}
+.studentList{margin-bottom: 25px;}
+
+
+.headerImage{display:block; margin-left: auto; margin-right: auto; height: 50px; width:45px;}
+
+
+.fontLarge{font-size: 15px; font-weight: bolder;}
+/*Questions CSS*/
+
+.questionText{width: 400px; font-size: 15px; margin-left: auto; margin-right: auto; margin-bottom: 20px;}
+.questionDiv{width:400px; margin-top:30px; margin-right: 40px; margin-left: 80px; float: left; }
+
+.centerText{text-align: center;}
+
+.form-horizontal .control-label {text-align: left;}
+
+.formDiv{display: block; text-align: center;}
+
+.mailInput{text-align: center !important;}
+input.mailForm{border-radius: 10px; margin-bottom: 30px; text-align: left; display: inline-block; width: 300px; margin-left: auto; margin-right: auto; border: none;}
+
+.table{margin-bottom: 10px; border-bottom:solid 1px #f9f9f9; width: 100%;}
+.textCenter{text-align: center;}
+input{text-align: center;}
+
+.btn-default
+{border: none; border-radius: 10%; text-align: center;}
+.btn:hover{transition:0.5s all ease; border-radius: 50px; text-align:center; color:white; background-color:rgba(0, 0, 0,0.4)}
+
+.btn-border-none{border:none !important; height: auto;}
+
+.upldBtn{width: 100%; margin-left: auto; margin-right: auto; margin-bottom: 20px;}
+.titleText{float:left; display:block; width: 70%; margin-right: auto; margin-left: auto;}
+.text{float:left; display:inline; width: 70%;}
+.dlbtn{float:left; display:inline; width: 30%;}
+
+.formInformation{ width: auto; display:block; float: left; margin-bottom: 30px;margin-right: 50px; border-bottom:1px solid; }
+.downloadFormBtn{display:block; margin: 20px; float: left;}
+
+.control-label{margin-bottom:20px !important;}
+
+#logo{width:30%; height:30%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+#myLogo{width:20%; height:20%;
+  float: left;
+  display: inline;
+margin-bottom: -75px;
+}
+.panel-default{border-color:rgba(0,0,0,0);}
+/*Navigation*/
+.navbar-default{background-color: rgba(0,0,0,0) !important; border-color: rgba(0,0,0,0) !important;}
+.navbar-default .navbar-nav > li > a{color: white;text-align: center; float:none;}
+.navbar-default .navbar-nav > li > a:hover{transition:0.5s all ease; color: #c0c0c0;}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: right;
+}
+
+/*Select a Class*/
+.selectAClass{margin-bottom:30px;}
+.centerText
+{
+  text-align: center;
+  background-color: rgba(255,255,255,0) !important;
+}
+.center{float: none;
+     margin-left: auto;
+     margin-right: auto;}
+
+    
+
+/*Bootstrap edits*/
+.logReg{text-decoration: none; list-style: none; color: #333;}
+.logReg:hover{transition:0.5s all ease; color: #575757;}
+.backgroundClear{background-color: rgba(255,255,255,0); border:none;}
+.panel
+{
+  background-color: rgba(255,255,255,0.9);
+  font-family: 'Raleway', sans-serif;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.panel-heading
+{
+  background-color: rgba(44, 105, 255, 1) !important;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  height: 100px;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.7);
+  border: none;
+}
+
+/*DIV Content Styles - Extra*/
+.scrollPanel
+{
+  height: 450px !important;
+  overflow-y: scroll; 
+}
+
+.borderBottom
+{
+  border-bottom:  1px solid rgba(49, 165, 237, 0.4);
+}
+
+/* form stuff */
+.formMenu {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    
+}
+.formContent {
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #333;
+    width: 80%;
+    text-align: center;
+      background-color: rgba(0,0,0,0.8);
+      color: #fff;
+}
+.submitBtn
+{
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+}
+
+.formCenter
+{
+margin: 0 auto;
+}
+
+.tableMargins{margin-bottom: 20px;}
+/* The Close Button */
+.close {
+    color: #fff;
+    border-radius:90px; 
+    float: right;
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.closeBtn {
+    color: #fff;
+    border-radius:90px; 
+    float: right;
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
